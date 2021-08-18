@@ -42,6 +42,7 @@ const GlobalStyle = createGlobalStyle`
             &:hover{
             background-color: rgba(0,233,119,1);
             color: white !important;
+            transition: 0.4s;
           }
 
           }
