@@ -41,7 +41,7 @@ const GlobalStyle = createGlobalStyle`
             border-radius: 50px;
             &:hover{
             background-color: rgba(0,233,119,1);
-           
+            color: white !important;
           }
 
           }
@@ -53,7 +53,6 @@ const GlobalStyle = createGlobalStyle`
           background-color: rgba(0,233,119,1);
           border-radius: 50px;
           cursor: pointer;
-          
         }
       }
  
