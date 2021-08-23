@@ -18,7 +18,7 @@ const Sidebar = () => {
                   (router.pathname === v.href && "text-white") || "text-dark"
                 } `}
               >
-                {v.title}
+                <span className={"me-3"}> {v.icon}</span> {v.title}
               </a>
             </Link>
           </li>

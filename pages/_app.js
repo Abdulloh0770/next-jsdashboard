@@ -65,7 +65,7 @@ function MyApp({ Component, pageProps }) {
       <GlobalStyle />
       <Sidebar />
       <div className={"content"}>
-        <header className="header p-3 d-flex justity-content-between">
+        <header className="header p-3 d-flex justity-content-between shadow p-3">
           <Button variant="">
             <FontAwesomeIcon icon={faBars} />
           </Button>
